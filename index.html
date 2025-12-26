@@ -6,52 +6,100 @@
 <title>Lawn Care Services</title>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, sans-serif;
-}
-
 body {
-  line-height: 1.6;
+  margin: 0;
+  font-family: Arial, sans-serif;
   color: #1f2937;
 }
 
-/* HEADER */
 header {
   background: #14532d;
   color: white;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 20px;
+  text-align: center;
 }
 
-header h1 {
-  font-size: 26px;
-}
-
-nav a {
-  color: white;
-  margin-left: 25px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* HERO */
 .hero {
-  height: 90vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("https://images.unsplash.com/photo-1599687351724-dfa3c8b77fa1");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align
+  background: #166534;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #f9fafb;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.cta {
+  background: #14532d;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+footer {
+  background: #0f3d24;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>LAWN CARE BUSINESS</h1>
+</header>
+
+<section class="hero">
+  <h2>Professional Lawn Care Services</h2>
+  <p>Reliable • Affordable • High Quality</p>
+</section>
+
+<section class="section">
+  <h3>Our Services</h3>
+  <div class="services">
+    <div class="card">
+      <h4>Lawn Mowing</h4>
+      <p>Scheduled mowing to keep your lawn healthy.</p>
+    </div>
+    <div class="card">
+      <h4>Edging & Trimming</h4>
+      <p>Clean edges and detailed trimming.</p>
+    </div>
+    <div class="card">
+      <h4>Seasonal Cleanup</h4>
+      <p>Spring and fall cleanup services.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Get a Free Quote</h2>
+  <p>Call or message us today</p>
+</section>
+
+<footer>
+  <p>© 2025 Lawn Care Business</p>
+</footer>
+
+</body>
+</html>
+
+  
