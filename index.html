@@ -3,60 +3,83 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lawn Care Services</title>
+<title>INK TRAP</title>
 
 <style>
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #1f2937;
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #E8C48A; /* Sand background */
+color: #121212;
 }
 
 header {
-  background: #14532d;
-  color: white;
-  padding: 20px;
-  text-align: center;
+text-align: center;
+padding: 60px 20px;
+background-color: #E8C48A;
 }
 
-.hero {
-  background: #166534;
-  color: white;
-  padding: 100px 20px;
-  text-align: center;
+.logo {
+font-size: 60px;
+font-weight: 900;
+color: #0B1F0F; /* Deep green */
+line-height: 1;
 }
 
-.section {
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: auto;
+.logo span {
+font-size: 30px;
+font-weight: 600;
+display: block;
+}
+
+/* House roof shape */
+.roof {
+width: 140px;
+height: 60px;
+margin: 0 auto;
+border-bottom: 15px solid #0B1F0F;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+}
+
+.cta-btn {
+background-color: #C73A24; /* Red-orange */
+color: #ffffff;
+padding: 15px 30px;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+cursor: pointer;
+transition: 0.3s;
+margin-top: 20px;
+}
+
+.cta-btn:hover {
+background-color: #0B1F0F;
+border: 2px solid #C73A24;
+}
+
+/* Sections */
+section {
+padding: 60px 20px;
+text-align: center;
 }
 
 .services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+background-color: #0B1F0F;
+color: #E8C48A;
 }
 
-.card {
-  background: #f9fafb;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+.contact {
+background-color: #C73A24;
+color: white;
 }
 
-.cta {
-  background: #14532d;
-  color: white;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-footer {
-  background: #0f3d24;
-  color: white;
-  padding: 20px;
-  text-align: center;
+.phone {
+font-size: 30px;
+font-weight: bold;
+margin-top: 10px;
 }
 </style>
 </head>
@@ -64,42 +87,33 @@ footer {
 <body>
 
 <header>
-  <h1>LAWN CARE BUSINESS</h1>
+<div class="roof"></div>
+<div class="logo">
+INK<br>TRAP
+<span>Creative Visual Design</span>
+</div>
+<button class="cta-btn">Book Now</button>
 </header>
 
-<section class="hero">
-  <h2>Professional Lawn Care Services</h2>
-  <p>Reliable • Affordable • High Quality</p>
+<section>
+<h1>Bold Ideas. Solid Designs.</h1>
+<p>Ink Trap brings graffiti-inspired creativity with professional precision.
+From custom artwork to branding and digital design, we transform concepts into visuals that stand out.</p>
 </section>
 
-<section class="section">
-  <h3>Our Services</h3>
-  <div class="services">
-    <div class="card">
-      <h4>Lawn Mowing</h4>
-      <p>Scheduled mowing to keep your lawn healthy.</p>
-    </div>
-    <div class="card">
-      <h4>Edging & Trimming</h4>
-      <p>Clean edges and detailed trimming.</p>
-    </div>
-    <div class="card">
-      <h4>Seasonal Cleanup</h4>
-      <p>Spring and fall cleanup services.</p>
-    </div>
-  </div>
+<section class="services">
+<h2>What We Do</h2>
+<p>✔ Custom Digital Art</p>
+<p>✔ Logo & Branding Design</p>
+<p>✔ Creative Flyers & Posters</p>
+<p>✔ Graffiti-Style Lettering</p>
 </section>
 
-<section class="cta">
-  <h2>Get a Free Quote</h2>
-  <p>Call or message us today</p>
+<section class="contact">
+<h2>Contact</h2>
+<p>Reach out for custom work, bookings, or collaborations.</p>
+<div class="phone">903-493-2575</div>
 </section>
-
-<footer>
-  <p>© 2025 Lawn Care Business</p>
-</footer>
 
 </body>
 </html>
-
-  
